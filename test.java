@@ -1,5 +1,5 @@
 public class newone(){
 public void m(){
-System.out.println("this is hello");
+System.out.println("this is hello world");
 }
 }
