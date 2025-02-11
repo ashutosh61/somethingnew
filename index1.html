@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: black;">
+    <script>
+        const div = document.createElement('div')
+        console.log(div)
+        div.className='main'
+        div.id=Math.floor(Math.random()*10+1)
+        div.setAttribute("title","autonomous")
+        div.style.backgroundColor='green'
+        // div.innerText = "chai and code"
+        const text = document.createTextNode("chai ur voh")
+        div.appendChild(text)
+        
+    </script>
+</body>
+</html>
